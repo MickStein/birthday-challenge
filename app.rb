@@ -10,6 +10,6 @@ class BirthdayApp < Sinatra::Base
   end
 
   get '/home' do
-    'Hello there!'
+    erb :home
   end
 end
